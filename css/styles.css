@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  color: #333;
+}
+
+/* header */
+header {
+  background-color: #efefef;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* flexボックス内の配置 */
+  align-items: center;
+  padding-top: 10px;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.info h1 {
+  font-size: 18px;
+}
+
+.info p {
+  font-size: 12px;
+}
+
+/* section */
+section {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #ddd;
+  margin: 10px auto;
+}
+
+thead,
+tfoot {
+  background: #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+tbody td:first-child {
+  color: red;
+}
+
+tbody td:last-child {
+  color: blue;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+td.disabled {
+  opacity: 0.3;
+}
+
+td.today {
+  font-weight: bold;
+}
+
+#prev,
+#next,
+#today {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* link */
+.link {
+  margin: 0;
+  margin: 50px auto 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #eee;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* footer */
+footer {
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #333;
+  color: gray;
+}
